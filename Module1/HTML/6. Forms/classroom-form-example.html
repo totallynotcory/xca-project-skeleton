@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <!-- Text Input -->
+        <label for="mailaddress">Email</label>
+        <input type="text" id="mailaddress">
+
+        <!-- Radio Buttons -->
+        <div>
+            <h2>Drink:</h2>
+            <!-- Coffee input circle -->
+            <input type="radio" id="coffee" name="drink" checked>
+            <!-- Coffee label -->
+            <label for="coffee">Coffee</label>
+            <br>
+            <input type="radio" id="tea" name="drink">
+            <label for="tea">Tea</label>
+        </div>
+
+         <!-- Checkboxes -->
+        <div>
+            <h2>Add-ons:</h2>
+            <!-- Milk input checkbox -->
+            <input type="checkbox" id="milk" name="additives">
+            <!-- Milk label -->
+            <label for="milk">Milk</label>
+            <br>
+            <input type="checkbox" id="sugar" name="additives">
+            <label for="sugar">Sugar</label>
+        </div>
+        
+        <!-- Text area for special notes -->
+        <div>
+            <br>
+            <label for="message">Special Notes:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="5" minlength="30" maxlength="500"></textarea>
+        </div>
+    </body>
+</html>
