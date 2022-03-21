@@ -1,0 +1,47 @@
+.card {
+    background-color: #898989;
+    border: 2px solid black;
+    width: fit-content;
+}
+
+.bold {
+    font-weight: bold;
+    color: gray;
+}
+
+.flex-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: lightblue;
+    background-color: lawngreen;
+    font-size: 16px;
+}
+
+body .card {
+    width: 1000px;
+}
+
+.details {
+    padding: 16px;
+}
+
+.card > div > div:nth-child(3) {
+    font-size: 34px;
+}
+
+button {
+    color: blue;
+    border: 2px solid blue;
+    background-color: #123123;
+}
+
+.button {
+    color: white;
+    border: 2px solid white;
+    background-color:midnightblue;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+}

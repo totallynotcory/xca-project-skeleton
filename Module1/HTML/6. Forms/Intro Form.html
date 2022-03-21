@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form onsubmit="onSubmit()">
+            <!-- Write your code here -->
+        </form>
+
+        <script>
+            function onSubmit() {
+                let name = document.querySelector("#name").value
+                let learningInterest = document.querySelector("input[name=fav_language]:checked").value
+                let hobbies = []
+                document.querySelectorAll("input[name=hobby]:checked").forEach(hobby => hobbies.push(hobby.value));
+                hobbies.join(", ");
+                alert(`Oh hi ${name}!  It looks like you're interested in learning more about ${learningInterest}.  I hope you can make a cool website about ${hobbies} and other cool stuff!`)
+            }
+        </script>
+    </body>
+</html>
