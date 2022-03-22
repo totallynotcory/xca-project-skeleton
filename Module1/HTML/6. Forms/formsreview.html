@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Review of Forms</title>
+    </head>
+
+    <body>
+        <form onsubmit="alert('Hey Everybody!!!')">
+
+            <!-- name-block -->
+            <div class="name-block">
+                <h3>Name</h3>
+                <label for="firstname">First Name</label>
+                <input type="password" id="firstname">
+                <br>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname">
+            </div>
+            
+            <div class="language-block">
+                <h3>Language</h3>
+                <label for="English">English</label>
+                <input type="radio" id="English" name="languages" value="English">
+                <br>
+                <label for="Spanish">Spanish</label>
+                <input type="radio" id="Spanish" name="languages" value="Spanish">
+            </div>
+
+            <div class="genre-block">
+                <h3>Genre</h3>
+                <input name="genre" type="checkbox" id="sci-fi" value="sci-fi">
+                <label for="sci-fi">Sci-fi</label>
+                <input name="genre" type="checkbox" id="fantasy" value="fantasy">
+                <label for="fantasy">Fantasy</label>
+                <input name="genre" type="checkbox" id="romance" value="romance">
+                <label for="romance">Romance</label>
+                <input name="genre" type="checkbox" id="thriller" value="thriller">
+                <label for="thriller">Thriller</label>
+            </div>
+
+            <div class="essay-block">
+                <h3>Essay</h3>
+                <label for="essay">User essay</label>
+                <textarea id="essay" name="essay" minlength="20" maxlength="500" cols="50" rows="30"></textarea>
+            </div>
+
+            <input type="button" value="Submit">
+
+            <button>Submit</button>
+
+        </form>
+
+
+    </body>
+
+</html>
